@@ -1,6 +1,4 @@
-import {
-  useState
-} from 'react';
+import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
@@ -11,27 +9,22 @@ function App() {
 
   return (
     <>
-    <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-</div>
-<h1>Vite + React</h1>
-<div className="card">
-      <p className="read-the-docs">
-        count is {count}
-</p>
+      <h1>First React Project with Mobile</h1>
+      <div className="card">
+        <p className="read-the-docs">
+          count is {count}
+        </p>
         <button onClick={() => setCount((count) => count + 1)}>
-        Add
+          Add
         </button>
+        <br />
+        <br />
         <button onClick={() => setCount((count) => count - 1)}>
           Subtract
         </button>
-</div> < />
-)
+      </div>
+    </>
+  )
 }
 
 export default App
